@@ -1,0 +1,36 @@
+<div class='exchange'>
+    <h1 style="text-align: center">Exchange paramethers</h1>
+    <div class='time-form'>
+
+        <div class="example-wrapper">
+            <label>Select start time:</label>
+            <kendo-timepicker
+                [(ngModel)]="start"
+                #dateModel="ngModel"
+            ></kendo-timepicker>
+        </div>
+        
+        
+        <div class="example-wrapper">
+            <label>Select end time:</label>
+            <kendo-timepicker
+                [(ngModel)]="end"
+                #dateModel="ngModel"
+            ></kendo-timepicker>
+        </div>
+    </div>
+
+    <form class="form-inline" (ngSubmit)="setFrequency(res)">
+        <div class="select">
+            <label>Select frequency:</label>
+            <select [(ngModel)]="res" name='res' [value]='frequency'>
+                <option *ngFor="let o of options">
+                {{o.name}}
+                </option>
+            </select>
+            <button type="submit" class="btn btn-primary manage">Submit</button>
+        </div> 
+    </form>
+        
+
+</div>

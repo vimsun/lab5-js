@@ -1,0 +1,59 @@
+{
+  "brokers": [
+    {
+      "id": 1,
+      "name": "Kelmit",
+      "surname": "Alastor",
+      "email": "shadowsorcerer@gmail.com",
+      "money": "7945362"
+    },
+    {
+      "id": 3,
+      "name": "Saya",
+      "surname": "Druid",
+      "email": "strongtea@gmail.com",
+      "money": "12345678"
+    },
+    {
+      "id": 7,
+      "name": "Roger",
+      "surname": "Keremti",
+      "email": "lawnmover@gmail.com",
+      "money": "99997632"
+    },
+    {
+      "id": 9,
+      "name": "Lucius",
+      "surname": "Luzwafiy",
+      "email": "horse_on_horse@gmail.com",
+      "money": "67756434"
+      
+    }
+  ],
+  "stocks": [
+    {
+      "id": 1,
+      "name": "Sleepy grass",
+      "price": "50",
+      "amount": "23"
+    },
+    {
+      "id": 2,
+      "name": "Potion of healing",
+      "price": "26",
+      "amount": "542"
+    },
+    {
+      "id": 3,
+      "name": "Fly agaric",
+      "price": "3",
+      "amount": "8273"
+    },
+    {
+      "id": 4,
+      "name": "Corvus Album field",
+      "price": "500",
+      "amount": "10"
+    }
+  ]
+}

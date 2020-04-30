@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, a:active{
+    color: white;
+    font-weight: bold;
+}
+
+.navigation-items{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: Candara;
+}
+
+mat-toolbar{
+    border-radius: 3px;
+    font-family: Candara;
+}
+
+@media(max-width: 959px){
+    mat-toolbar{
+        border-radius: 0px;
+    }
+}
+.mat-toolbar.mat-primary {
+    background-color: #2fedf7 !important;
+}
